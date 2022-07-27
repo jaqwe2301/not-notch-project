@@ -1,0 +1,22 @@
+@import "style.css";
+
+html{
+    width: 490px;
+    height: 100%;
+    /* background-color: whitesmoke; */
+    text-align: center;
+    background-color: white;
+    /* overflow: hidden; */
+}
+
+body{
+    width: 490px;
+    min-height: 928px;
+    height: 100%;
+    background-color: whitesmoke;
+
+}
+
+li, ul {
+    list-style-type: none !important;
+}

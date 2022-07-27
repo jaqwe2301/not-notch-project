@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'HYpacman';
+    src: url('../font/HYpacman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pacman {
+    font-family: 'HYpacman';
+}

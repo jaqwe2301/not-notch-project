@@ -1,0 +1,95 @@
+header {
+    padding: 0px 32px 0 32px ;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    box-shadow: 0 2px 5px -4px;
+}
+
+header li {
+    font-size: 25px;
+}
+
+header ul {
+    margin-bottom: 0;
+    display: flex;
+    padding-left: 0;
+}
+
+header h1 {
+    margin-bottom: 0;
+    font-family: 'HYpacman';
+    font-size: 26px;
+    margin-top: 5px;
+}
+
+.search {
+    position: relative;
+    width: 432px;
+    height: 58px;
+    margin-top: 10px;
+}
+
+.bar {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+.search i {
+    position : absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 25px;
+    margin: 0;
+    outline: none;
+}
+
+.select {
+    display: flex;
+    width: 430px;
+    margin-top: 30px;
+}
+
+.select button {
+    /* padding-left: 0; */
+    width: 107px;
+    height: 107px;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: 'HYpacman';
+    font-size: 25px;
+}
+
+.top_button {
+    border-style: none;
+}
+
+.price_name {
+    font-family: 'HYpacman';
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.price input {
+    width: 176px;
+    height: 44px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+}

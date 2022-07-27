@@ -1,0 +1,144 @@
+header {
+    display: flex;
+    position: sticky;
+    padding: 0px 32px 0 32px ;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    box-shadow: 0 2px 5px -4px;
+    background-color: rgb(146, 210, 216);
+}
+
+header li {
+    font-size: 20px;
+}
+
+header ul {
+    margin-bottom: 0;
+    display: flex;
+    padding-left: 0;
+}
+
+.search {
+    position: relative;
+    width: 380px;
+    height: 40px;
+    margin-top: 3px;
+}
+
+.search button{
+    border: none;
+}
+
+.bar {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+.search i {
+    position : absolute;
+    top: 12px;
+    right: 13px;
+    font-size: 16px;
+    margin: 0;
+    outline: none;
+}
+
+.top{
+    width: auto;
+    box-shadow: 0 2px 5px -4px;
+    border-bottom: 2px solid #bababa;
+    margin-top: 13px;
+    padding-bottom: 1px;
+}
+
+
+textarea{
+    width: 395px;
+    height: 51px;
+
+    margin-left: 13px;
+}
+
+.filter{
+    text-align: right;
+    margin-right: 23px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top:8px;
+    margin-bottom: 8px;
+}
+
+.css_filter{
+    width: 78.87px;
+    height: 32.52px;
+    color: #FFFFFF;
+    background: #FF7A50;
+    border-radius: 7.60995px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.css_filter i {
+    color: rgb(255, 242, 125);
+}
+
+.btn{
+    display:flex;
+}
+
+.sub_search{
+    width: auto;
+    height: 32.52px;
+    color: #828282;
+    background: #FFFFFF;
+    border: 0.691814px solid #C2C2C2;
+    border-radius: 7.60995px;
+    margin-right: 9px;
+    font-size: 14px;
+}
+
+.sub_search:first-child{
+    margin-left: 40px;
+}
+
+.sub_search:hover{
+    color: #FFFFFF;
+    background: #3858FF;
+}
+
+.sub_search:focus{
+    color: #FFFFFF;
+    background: #3858FF;
+}
+
+.contents_list_detail {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #7E7E7E;
+    padding-left: 28px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+}
+
+.textbox {
+    margin-left: 20px;
+}
+
+.textbox p {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.listimg {
+    width: 118px;
+    height: 118px;
+}
+

@@ -1,0 +1,39 @@
+.start_sec li {
+    background-color: #D8EDED;
+    width: 307.26px;
+    text-align: center;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+
+.start_sec ul {
+    padding-left: 0;
+}
+
+.last {
+    font-size: 13.19px;
+}
+
+.start_sec img {
+    height: 187.37px;
+    width: 307.26px;
+}
+
+.start_sec{
+    font-size: 17px;
+    display:table-cell ;
+    position:relative
+}
+
+body {
+    display: table;
+}
+
+.start_btn {
+    background-color: #34B6FF;
+    width: 122.5px;
+    height: 50.39px;
+    display:table-cell ;
+    font-size: 30.15px;
+    margin-top: 80px;
+}
